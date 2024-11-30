@@ -84,3 +84,19 @@ Examples for the hotel booking application:
   - Use Content Delivery Networks (CDNs) to provide uninterrupted service and minimize downtime.  
 
 By addressing both Functional and Non-functional Requirements, the system can deliver a seamless and reliable booking experience for users while meeting performance and scalability expectations.  
+
+## Use Case Diagrams  
+
+Use Case Diagrams are visual representations that illustrate the interactions between users (actors) and the system, highlighting the functional requirements of a project. They are an essential tool in software development for identifying and documenting system functionality.  
+
+### Benefits of Use Case Diagrams  
+- **Clarity**: Simplifies understanding of how the system will be used by different actors.  
+- **Requirement Validation**: Ensures all stakeholder needs are accounted for in the system's design.  
+- **Collaboration**: Provides a shared understanding for developers, designers, and stakeholders.  
+- **System Scope Definition**: Clearly defines system boundaries and interactions.  
+
+### Use Case Diagram for Booking System  
+
+Below is the use case diagram for the hotel booking management system. It includes actors such as *Hotel Manager*, *Customer*, and *System Administrator*, and shows their interactions with various use cases like *Manage Hotels*, *Search for Hotels*, *Book Hotel*, *Process Payments*, and *View Bookings*.  
+
+![Use Case Diagram](./alx-booking-uc.png)  
