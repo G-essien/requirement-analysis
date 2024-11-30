@@ -25,3 +25,28 @@ Requirement Analysis is a cornerstone of successful software development. It ens
 
 By investing time and effort into Requirement Analysis, software projects can avoid common pitfalls, deliver value to users, and meet business objectives effectively.  
 
+## Key Activities in Requirement Analysis  
+
+Requirement Analysis involves several critical activities that help define and refine the needs of a software project. Below are the five key activities:  
+
+- **Requirement Gathering**  
+  - Collect initial information from stakeholders, including business objectives and user needs.  
+  - Use interviews, surveys, and brainstorming sessions to ensure all perspectives are captured.  
+
+- **Requirement Elicitation**  
+  - Dive deeper into understanding stakeholder expectations and uncover hidden requirements.  
+  - Techniques include workshops, focus groups, and prototyping to clarify ambiguities.  
+
+- **Requirement Documentation**  
+  - Organize the gathered requirements into clear, structured formats such as use cases, user stories, or requirement specifications.  
+  - Ensure the documentation is accessible and understandable to all stakeholders.  
+
+- **Requirement Analysis and Modeling**  
+  - Evaluate the documented requirements for feasibility, consistency, and completeness.  
+  - Use visual tools like flowcharts, data models, and mockups to represent complex requirements.  
+
+- **Requirement Validation**  
+  - Confirm with stakeholders that the documented requirements accurately reflect their needs.  
+  - Validate requirements for technical feasibility, business alignment, and clarity.  
+
+These activities are essential for creating a shared understanding of the project goals and ensuring a solid foundation for design and development.  
