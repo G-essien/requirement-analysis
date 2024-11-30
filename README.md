@@ -99,4 +99,28 @@ Use Case Diagrams are visual representations that illustrate the interactions be
 
 Below is the use case diagram for the hotel booking management system. It includes actors such as *Hotel Manager*, *Customer*, and *System Administrator*, and shows their interactions with various use cases like *Manage Hotels*, *Search for Hotels*, *Book Hotel*, *Process Payments*, and *View Bookings*.  
 
-![Use Case Diagram](./alx-booking-uc.png)  
+![Use Case Diagram](Use_case_diagram.png)  
+
+## Acceptance Criteria  
+
+### Importance of Acceptance Criteria  
+Acceptance Criteria are critical in Requirement Analysis as they establish clear conditions that a feature or system must meet to be considered complete. They ensure alignment between stakeholders, developers, and testers, providing a shared understanding of the expected outcomes. By minimizing ambiguities, Acceptance Criteria improve communication, reduce rework, and help deliver a product that meets user and business needs effectively.  
+
+### Example: Acceptance Criteria for the Checkout Feature  
+
+#### **Scenario 1: Successful Property Booking**  
+- **Given:** A user selects a property and navigates to the checkout page.  
+- **When:** The user inputs valid booking details (dates, number of guests, and payment information).  
+- **Then:** The system processes the payment, confirms the booking, and displays a success message with booking details.  
+
+#### **Scenario 2: Invalid Payment Information**  
+- **Given:** A user attempts to book a property.  
+- **When:** The payment details provided are invalid.  
+- **Then:** The system rejects the payment, displays an error message, and prompts the user to re-enter valid information.  
+
+#### **Scenario 3: Booking Availability Check**  
+- **Given:** A user enters booking details.  
+- **When:** The selected dates are unavailable.  
+- **Then:** The system notifies the user of unavailability and suggests alternative dates or properties.  
+
+By defining such clear and measurable criteria, stakeholders can ensure that the Checkout feature functions as intended and delivers a seamless user experience.  
