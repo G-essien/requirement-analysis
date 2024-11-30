@@ -50,3 +50,37 @@ Requirement Analysis involves several critical activities that help define and r
   - Validate requirements for technical feasibility, business alignment, and clarity.  
 
 These activities are essential for creating a shared understanding of the project goals and ensuring a solid foundation for design and development.  
+
+## Types of Requirements  
+
+In software development, requirements are categorized into two main types: Functional Requirements and Non-functional Requirements. These requirements define the system's behavior and quality, ensuring the application meets both user expectations and technical standards. Below are the definitions and examples based on the case study of a hotel booking management project.  
+
+### Functional Requirements  
+Functional Requirements describe the specific behaviors or functions of a system. They define what the system should do to fulfill user needs and achieve its objectives.  
+
+Examples for the hotel booking application:  
+- **Hotel Management Service**:  
+  - Allow hotel managers to update hotel details (e.g., name, location, pricing, and availability).  
+  - Sync updated data to the master and slave databases.  
+- **Customer Service (Search + Booking)**:  
+  - Enable users to search hotels by location, price, and availability.  
+  - Facilitate hotel booking and interaction with third-party payment services.  
+- **View Booking Service**:  
+  - Display current and past bookings for customers and hotel managers.  
+
+### Non-functional Requirements  
+Non-functional Requirements define the quality attributes or constraints of a system. They focus on how the system performs its functions rather than the specific tasks.  
+
+Examples for the hotel booking application:  
+- **Performance**:  
+  - Ensure API response times are under 1 second using Redis for caching and Elasticsearch for search functionality.  
+- **Scalability**:  
+  - Utilize microservices architecture to manage high user traffic and ensure the system can scale effectively.  
+- **Reliability**:  
+  - Implement a master-slave database architecture to reduce database load and ensure data consistency.  
+- **Security**:  
+  - Secure customer and manager portals with robust authentication mechanisms.  
+- **Availability**:  
+  - Use Content Delivery Networks (CDNs) to provide uninterrupted service and minimize downtime.  
+
+By addressing both Functional and Non-functional Requirements, the system can deliver a seamless and reliable booking experience for users while meeting performance and scalability expectations.  
